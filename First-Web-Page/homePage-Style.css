@@ -1,0 +1,197 @@
+:root {
+    --azure:  #F0FFFF;
+    --black: #000015;
+    --dark-blue: #12131c;
+    --middle-blue: #123949;
+    --blue: #146982;
+    --light-blue: #1da0c7;
+}
+*{
+    padding: 0;
+    margin: 0; 
+    font-family: sans-serif;
+    color: var(--azure);
+}
+.layout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-color: var(---light-blue);
+}
+.navbar{
+    height: 8vh;
+    width: 100%;
+    background-color:var(--middle-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 3vh;
+    border-bottom-right-radius:3vh ;
+    padding: 1vh ;
+}
+.navbar-pageName{
+    font-size: 4vh;
+    margin-left: 10vh;
+    color: var(--azure);
+}
+.navbar-pageMenu{
+    display: flex;
+    font-size: 2vh;
+    width: 20%;
+    height: 6vh;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 4vh;
+}
+.navbar a{
+    color:var(--azure);
+}
+.definitions{
+    height: 30vh;
+    width: 92%;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 1vh;
+    border-radius: 1vh;
+}
+.definitions-photo{
+    height: 25vh;
+    width: 20vh;
+    margin: 2vh;
+    box-shadow: 7px 6px 4px var(--black);
+    transition: 0.2s;
+}
+.definitions-photo:hover{
+    height: 26vh;
+    width: 21vh;
+}
+.definitions-text{
+    height: 25vh;
+    width: 75%;
+    border: 3px solid var(--middle-blue);
+    margin: 5vh;
+    padding-left: 25px;
+    box-shadow: 7px 6px 4px var(--black);
+    transition: 0.2s;
+}
+.definitions-text-head{
+    height: auto;
+    width: 75%;
+    font-size: 3vh;
+    font-weight: bold;
+    font-style:italic;
+    text-align:justify;
+    margin:1vh;
+    margin-left: 6vh !important;
+}
+.definitions-text-contents{
+    font-size: 1.6vh
+}
+.products{
+    height: 68vh;
+    width: 92%;
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vh;
+    margin: 1vh;
+    margin-top: 2vh !important;
+    border-radius: 1vh;
+}
+.products-box1{
+    height: 20vh;
+    width: 100vh;
+    border: 0.5vh solid var(--middle-blue)    ;
+    margin: 2vh;
+    margin-right: 50vh;
+    box-shadow: 7px 6px 4px var(--black);
+    transition: 0.2s;
+}
+.products-box2{
+    height: 20vh;
+    width: 100vh;
+    border: 0.5vh solid var(--middle-blue)    ;
+    margin: 2vh;
+    margin: 2vh;margin-left: 50vh;
+    box-shadow: 7px 6px 4px var(--black);
+    transition: 0.2s;
+}
+.products-box3{
+    height: 20vh;
+    width: 100vh;
+    border: 0.5vh solid var(--middle-blue)    ;
+    margin: 2vh;
+    margin: 2vh;
+    margin-right: 50vh;
+    box-shadow: 7px 6px 4px var(--black);
+    transition: 0.2s;
+}
+.products-box-abilities{
+    height: auto;
+    width: 75%;
+    font-size: 3vh;
+    font-weight: bold;
+    font-style:italic;
+    text-align:justify;
+    margin:1vh;
+    margin-left: 10vh;
+}
+.products-box-abilities:hover{
+    
+    color: var(--azure);
+}
+.adress{
+    margin: 1vh;
+    margin-left: 2vh !important;
+    color:var(--azure);
+    font-size: 2vh;
+}
+.adress:hover{
+    
+    color: var(--azure);
+    font-size: 2.4vh;
+}
+.progress-bar{
+    background-color: var(--middle-blue);
+    align-items: center;
+    justify-content: left;
+    font-size: 2vh;
+    margin-top: 1vh;
+    margin: 0.5vh;
+    margin-left: 2vh !important;
+}
+
+.bottom{
+    height: 6vh;
+    width: 100%;
+    background-color:var(--middle-blue);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius:2vh ;
+    border-top-right-radius:2vh ;
+    padding: 0.5vh !important;
+}
+.bottom-text{
+    color: var(--azure);
+    font-size: 2vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40vh ;
+}
+.icons{
+    color:var(--azure);
+    font-size: 4vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons:hover{
+    font-size: 4.7vh;
+}
